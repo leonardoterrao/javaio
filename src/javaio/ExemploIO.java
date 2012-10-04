@@ -10,7 +10,7 @@ public class ExemploIO {
 
 			File arquivo = new File("c:/posJava/teste2.txt");
 			if (arquivo.exists()) {
-				System.out.println("Arquivo jah existe");
+				System.out.println("Arquivo já existe");
 
 				if (arquivo.isFile()) {
 					if (arquivo.length() == 0) {
@@ -40,7 +40,7 @@ public class ExemploIO {
 				}
 
 			} else {
-				System.out.println("Arquivo NAO existe");
+				System.out.println("Arquivo NÃO existe");
 				if (arquivo.createNewFile()) {
 					System.out.println("Arquivo criado com sucesso");
 				} else {
